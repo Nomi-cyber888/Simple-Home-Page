@@ -1,0 +1,265 @@
+@media  (width<=490px) {
+    body{
+        background-color: rgb(242, 249, 255);
+        display: grid;
+        place-items: center;
+    }
+    .mnav{
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .nav-but{
+        display: none;
+    }
+    .t3{
+        width: 20px;
+    }
+    .dmode{
+        display: none;
+    }
+    .main-pic{
+        /* width: 100%; */
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        margin-top: 6%;
+        margin-bottom: 9%;
+    }
+    .main-pic img{
+        display: inline-block;
+        /* width: 290px; */
+    }
+    .dm{
+        display: none;
+    }
+    #p1{
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    h1{
+        font-family: sans-serif;
+        padding-left: 15px;
+        font-weight: 900;
+        font-size: 36px;
+        width: 300px;
+        margin-top: 0;
+    }
+    #p2{
+        padding-left: 15px;
+        font-family: sans-serif;
+        font-size: 19px;
+        width: 350px;
+        line-height: 1.4;
+        padding-top: 13px;
+    }
+    .buttons{
+        padding-left: 15px;
+        width: 100%;
+        /* margin-top: 10%; */
+    }
+    #b1{
+        width: 165px;
+        height: 50px;
+        background-color: rgb(39, 63, 169);
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    #b1:hover{
+        cursor: pointer;
+    }
+    #b2{
+        width: 125px;
+        height: 50px;
+        background-color: transparent;
+        border: none;
+        font-size:16px;
+        margin-left: 3%;
+        color: rgb(3, 16, 75);
+        font-family: sans-serif;
+        font-weight: 600;
+        /* transition: all 0.3s ease; */
+    }
+    #b2:hover{
+        cursor: pointer;
+        border-bottom: 2px solid rgb(39, 63, 169);
+        color: rgb(4, 16, 70);
+    }
+    .type-radio{
+        display: flex;
+        /* width: 100%; */
+        padding-left: 15px;
+        margin-top: 40px;
+    }
+    .r1 span{
+        font-size: 14px;
+    }
+}
+
+
+@media  (width<=1440px) {
+    body{
+        background-color: rgb(242, 249, 255);
+    }
+    .mnav{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 78px;
+        margin-top: 3%;
+    }
+    .nav-but button{
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: "Funnel Sans", sans-serif;
+        font-weight: 600;
+        font-size: 17px;
+        margin-left: 40px;
+    }
+    .nav-but button:hover{
+        color: rgb(56, 79, 177);
+        cursor: pointer;
+        border-bottom: solid 2px rgb(56, 79, 177);
+    }
+    .dmode{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 60px;
+        height: 30px;
+        border-radius: 50px;
+        background-color: black;
+    }
+    .dmode:hover{
+        cursor: pointer;
+    }
+    .m{
+        width: 15px;
+        height: 22px;
+        background-color: transparent;
+        margin-right: 9px;
+    }
+    .s{
+        width: 23px;
+        margin-right: 1px;
+        height: 22px;
+        background-color: white;
+        border: none;
+        border-radius: 60px;
+
+    }
+    .t3{
+        display: none;   
+    }
+    .mm{
+        display: none;
+    }
+    .heading{
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7%;
+        /* margin-left: 7%; */
+        padding-left: 78px;
+    }
+    #p1{
+        font-family: "Funnel Sans", sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(34,51,68);
+    }
+    h1{
+        font-family: "Funnel Sans", sans-serif;
+        font-weight: 700;
+        font-size: 67px;
+        width: 400px;
+        color: rgb(34,51,68);
+        margin-top: 1%;
+    }
+    #p2{
+        font-size: 21px;
+        font-family: "Funnel Sans", sans-serif;
+
+    }
+    .buttons{
+        padding-left: 78px;
+        /* margin-top: 0; */
+        width: 400px;
+    }
+     #b1{
+        width: 165px;
+        height: 50px;
+        background-color: rgb(39, 63, 169);
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    #b1:hover{
+        cursor: pointer;
+    }
+    #b2{
+        width: 125px;
+        height: 50px;
+        background-color: transparent;
+        border: none;
+        font-size:16px;
+        margin-left: 3%;
+        color: rgb(3, 16, 75);
+        font-family: sans-serif;
+        font-weight: 600;
+        /* transition: all 0.3s ease; */
+    }
+    #b2:hover{
+        cursor: pointer;
+        border-bottom: 2px solid rgb(39, 63, 169);
+        color: rgb(4, 16, 70);
+    }
+    .type-radio{
+        display: flex;
+        margin-top: 3%;
+        padding-left: 78px;
+    }
+    .r1{
+        font-family: "Funnel Sans", sans-serif;
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    .r1 img{
+        position: relative;
+        top: 5px;
+    }
+    .r2{
+        font-family: "Funnel Sans", sans-serif;
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    .r2 img{
+        position: relative;
+        top: 5px;
+    }
+    footer{
+        margin-top: 6%;
+        text-align: center;
+        font-size: 20px;
+        font-family: "Funnel Sans", sans-serif;
+    }
+    footer a{
+        text-decoration: none;
+        color: rgb(34,51,68);
+        
+    }
+
+}
